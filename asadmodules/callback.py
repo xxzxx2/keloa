@@ -48,7 +48,7 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "- قناه البوت .", url="https://t.me/roottuxido"
+                        "- قناه البوت .", url="https://t.me/m_c_4"
                     )
                 ],
             ]
@@ -60,11 +60,11 @@ async def cbstart(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbhowtouse"))
 async def cbguides(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""🚦- [مطور المخروب](https://t.me/libcubehawk)
+        f"""🚦- [مطور المخروب](https://t.me/m_c_4)
 
 • **اضف @{ASSISTANT_NAME} مشرف في جروبك او ارسل /join لينضم تلقائي.**
 
-• **ان واجهت اي مشكله راسلني @libcubehawk**
+• **ان واجهت اي مشكله راسلني @m_c_4**
 ـ---------------------------------
 • **هذه اوامر تشغيل البوت**
 ► /play (اسم الاغنيه او اللينك) لتشغيل الاغاني ف المحادثات

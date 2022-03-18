@@ -44,7 +44,7 @@ async def update_admin(client, message):
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs.
 ┏━━━━━━━━━━━━━━━━━┓
 ┣★ ʙᴏᴛ : [ʀᴇʟᴏᴀᴅᴇᴅ](t.me/{BOT_USERNAME})
-┣★ ᴀᴅᴍɪɴ : At [{BOT_NAME}](t.me/roottuxido) ʀᴇғʀᴇsʜᴇᴅ
+┣★ ᴀᴅᴍɪɴ : At [{BOT_NAME}](t.me/m_c_4) ʀᴇғʀᴇsʜᴇᴅ
 ┣★ sᴜᴘᴘᴏʀᴛ : [ʙᴏᴛ ᴜᴘᴅAtᴇs](t.me/BOT_UPDATE)
 ┗━━━━━━━━━━━━━━━━━┛
 • ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜᴇɴ [ᴊᴀᴠᴀ](t.me/JAI6H) ᴍᴇ
@@ -61,8 +61,8 @@ async def skip(client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("- Rino .️", url=f"https://t.me/JAI6H"),
-                InlineKeyboardButton("- Channel .", url=f"https://t.me/roottuxido"),
+                InlineKeyboardButton("- 𝒌𝒆𝒍𝒖𝒂 𝒎𝒖𝒔𝒊𝒄 .️", url=f"https://t.me/JAI6H"),
+                InlineKeyboardButton("- Channel .", url=f"https://t.me/m_c_4"),
             ]
         ]
     )
@@ -73,9 +73,9 @@ async def skip(client, m: Message):
         if op == 0:
             await m.reply("❌ **لا يوجد شيء مشغل**")
         elif op == 1:
-            await m.reply("✅ قوائم **الإنتظار فارغه.**\n\n**• توقف [تشغيل الموسيقى](t.me/roottuxido) وترك الحساب المساعد المحادثه الصوتيه**")
+            await m.reply("✅ قوائم **الإنتظار فارغه.**\n\n**• توقف [تشغيل الموسيقى](t.me/m_c_4) وترك الحساب المساعد المحادثه الصوتيه**")
         elif op == 2:
-            await m.reply("🗑️ **مسح قوائم الانتظار**\n\n**توقف [تشغيل الموسيقى](t.me/roottuxido) وترك الحساب المساعد المحادثه الصوتيه**")
+            await m.reply("🗑️ **مسح قوائم الانتظار**\n\n**توقف [تشغيل الموسيقى](t.me/m_c_4) وترك الحساب المساعد المحادثه الصوتيه**")
         else:
             await m.reply_photo(
                 photo=f"{IMG_3}",
@@ -111,12 +111,12 @@ async def stop(client, m: Message):
         try:
             await call_py.leave_group_call(chat_id)
             clear_queue(chat_id)
-            await m.reply("✅ **تم ايقاف** [تشغيل](t.me/libcubehawk) **الموسيقي في المجموعه**")
+            await m.reply("✅ **تم ايقاف** [تشغيل](t.me/m_c_4) **الموسيقي في المجموعه**")
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("- Rino .️", url=f"https://t.me/libcubehawk"),
-                InlineKeyboardButton("- Channel .", url=f"https://t.me/roottuxido"),
+                InlineKeyboardButton("- 𝒌𝒆𝒍𝒖𝒂 𝒎𝒖𝒔𝒊𝒄 .️", url=f"https://t.me/m_c_4"),
+                InlineKeyboardButton("- Channel .", url=f"https://t.me/m_c_4"),
             ]
         ]
     )
@@ -127,8 +127,8 @@ async def stop(client, m: Message):
         keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("- Rino .️", url=f"https://t.me/libcubehawk"),
-                InlineKeyboardButton("- Channel .", url=f"https://t.me/roottuxido"),
+                InlineKeyboardButton("- 𝒌𝒆𝒍𝒖𝒂 𝒎𝒖𝒔𝒊𝒄 .️", url=f"https://t.me/m_c_4"),
+                InlineKeyboardButton("- Channel .", url=f"https://t.me/m_c_4"),
             ]
         ]
     )
@@ -162,13 +162,13 @@ async def resume(client, m: Message):
         try:
             await call_py.resume_stream(chat_id)
             await m.reply(
-                "▶️ **At** [تشغيل الموسيقى](t.me/roottuxido) **Tʀᴀᴄᴋ ɪs ʀᴇsᴜᴍᴇᴅ.**\n\n• **To pause the stream, use the**\n» /pause command."
+                "▶️ **At** [تشغيل الموسيقى](t.me/m_c_4) **Tʀᴀᴄᴋ ɪs ʀᴇsᴜᴍᴇᴅ.**\n\n• **To pause the stream, use the**\n» /pause command."
             )
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("- Rino .️", url=f"https://t.me/libcubehawk"),
-                InlineKeyboardButton("- Channel .", url=f"https://t.me/roottuxido"),
+                InlineKeyboardButton("- 𝒌𝒆𝒍𝒖𝒂 𝒎𝒖𝒔𝒊𝒄 .️", url=f"https://t.me/m_c_4"),
+                InlineKeyboardButton("- Channel .", url=f"https://t.me/m_c_4"),
             ]
         ]
     )
@@ -179,8 +179,8 @@ async def resume(client, m: Message):
         keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("- Rino .️", url=f"https://t.me/libcubehawk"),
-                InlineKeyboardButton("- Channel .", url=f"https://t.me/roottuxido"),
+                InlineKeyboardButton("- 𝒌𝒆𝒍𝒖𝒂 𝒎𝒖𝒔𝒊𝒄 .️", url=f"https://t.me/m_c_4"),
+                InlineKeyboardButton("- Channel .", url=f"https://t.me/m_c_4"),
             ]
         ]
     )
@@ -201,8 +201,8 @@ async def mute(client, m: Message):
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("- Rino .️", url=f"https://t.me/libcubehawk"),
-                InlineKeyboardButton("- Channel .", url=f"https://t.me/roottuxido"),
+                InlineKeyboardButton("- 𝒌𝒆𝒍𝒖𝒂 𝒎𝒖𝒔𝒊𝒄 .️", url=f"https://t.me/m_c_4"),
+                InlineKeyboardButton("- Channel .", url=f"https://t.me/m_c_4"),
             ]
         ]
     )
@@ -213,8 +213,8 @@ async def mute(client, m: Message):
         keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("- Rino .️", url=f"https://t.me/libcubehawk"),
-                InlineKeyboardButton("- Channel .", url=f"https://t.me/roottuxido"),
+                InlineKeyboardButton("- 𝒌𝒆𝒍𝒖𝒂 𝒎𝒖𝒔𝒊𝒄 .️", url=f"https://t.me/m_c_4"),
+                InlineKeyboardButton("- Channel .", url=f"https://t.me/m_c_4"),
             ]
         ]
     )
@@ -235,8 +235,8 @@ async def unmute(client, m: Message):
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("- Rino .️", url=f"https://t.me/libcubehawk"),
-                InlineKeyboardButton("- Channel .", url=f"https://t.me/roottuxido"),
+                InlineKeyboardButton("- 𝒌𝒆𝒍𝒖𝒂 𝒎𝒖𝒔𝒊𝒄 .️", url=f"https://t.me/m_c_4"),
+                InlineKeyboardButton("- Channel .", url=f"https://t.me/m_c_4"),
             ]
         ]
     )
@@ -247,8 +247,8 @@ async def unmute(client, m: Message):
         keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("- Rino .️", url=f"https://t.me/libcubehawk"),
-                InlineKeyboardButton("- Channel .", url=f"https://t.me/roottuxido"),
+                InlineKeyboardButton("- 𝒌𝒆𝒍𝒖𝒂 𝒎𝒖𝒔𝒊𝒄 .️", url=f"https://t.me/m_c_4"),
+                InlineKeyboardButton("- Channel .", url=f"https://t.me/m_c_4"),
             ]
         ]
     )
